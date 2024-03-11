@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        registry = '939083599624.dkr.ecr.us-east-1.amazonaws.com/node-frontend'
+        registry = '939083599624.dkr.ecr.us-east-2.amazonaws.com/node-frontend-repo'
         registryCredential = 'challenge'
         dockerImage = ''
     }
